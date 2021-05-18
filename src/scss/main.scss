@@ -1,0 +1,20 @@
+// Default variable overrides
+$primary: #FDC000;
+
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// $theme-colors: ( // theme-colors의 색상 전체를 바꿀시에는 required 위에서 실행을 시키고 일부분만 바뀔시에는 required 내에서 실행해야함.
+//   "primary": orange,
+//   "scondary": red,
+//   "success": $success,
+//   "info": $info,
+//   "warning": $warning,
+//   "danger" : $danger,
+//   "light" : $light,
+//   "dark" : $dark,
+//   );
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
